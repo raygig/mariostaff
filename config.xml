@@ -71,5 +71,8 @@
     <gap:plugin name="org.apache.cordova.statusbar"/>
     <gap:plugin name="org.apache.cordova.device" />
     <gap:plugin name="org.apache.cordova.inappbrowser"/>    
+    <gap:platform name="ios" />
+    <gap:platform name="android" />
+    <access origin="http://127.0.0.1*" />    
     <access origin="*" />
 </widget>
