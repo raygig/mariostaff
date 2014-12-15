@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Hello World</title>
+        <meta name="viewport" id="viewport" content="width=device-width, height=device-height, minimum-scale=1.0, maximum-scale=1.0"/>
+    </head>
+    <body>
+
+        <script type="text/javascript" src="phonegap.js"></script>  
+
+        <script type="text/javascript" charset="utf-8">
+
+        APP = {};
+
+          document.addEventListener('deviceready', function() {
+
+              /*
+              APP.ios     = !!device.platform.match(/ios/i);
+              APP.android = !!device.platform.match(/android/i);
+
+              var matches = device.model.match(/iPhone(\d)/i);
+
+              if(matches) {        
+
+                var iphone = parseInt(matches[1]);
+                         
+                var height = 400;
+                if(iphone>=5)
+                  height = 488;
+
+                var viewport = document.getElementById('viewport');
+                var content = viewport.getAttribute("content")
+                                .replace("device-height",height)
+                                .replace("maximum-scale=1.0","maximum-scale=0.9")
+                                .replace("minimum-scale=1.0","minimum-scale=0.9");
+
+                viewport.setAttribute('content',content);
+              }
+              */
+             
+
+
+            
+            //StatusBar.hide();
+            //StatusBar.overlaysWebView(false);
+            //StatusBar.backgroundColorByHexString("#C8DB2F");
+            
+            var ref = window.open('http://www.mariostaff.com', '_blank', 'location=no,toolbar=no');
+
+            ref.addEventListener('loadstop', function() {
+                ref.executeScript({code: "StatusBar.hide();"},function(){ alert("sSS"); });
+            });
+
+          });
+
+        </script>
+
+    </body>
+</html>
