@@ -1,1 +1,10 @@
-{"lib":{"www":{"id":"phonegap","version":"3.3.0","uri":"https://github.com/phonegap/phonegap-app-hello-world/archive/3.3.0.tar.gz"}},"id":"Guestengine","name":"HelloWorld","phonegap":{"id":893050}}
+{
+    "lib": {
+        "www": {
+            "id": "com.phonegap.hello-world",
+            "version": "master",
+            "uri": "https://github.com/phonegap/phonegap-app-hello-world/archive/master.tar.gz",
+            "link": false
+        }
+    }
+}

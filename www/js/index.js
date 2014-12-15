@@ -31,9 +31,16 @@ var app = {
     // deviceready Event Handler
     //
     // The scope of 'this' is the event. In order to call the 'receivedEvent'
-    // function, we must explicity call 'app.receivedEvent(...);'
+    // function, we must explicitly call 'app.receivedEvent(...);'
     onDeviceReady: function() {
         app.receivedEvent('deviceready');
+
+      
+        var ref = window.open('http://www.mariostaff.com', '_blank', 'location=no,toolbar=no');
+
+           // ref.addEventListener('loadstop', function() {
+            //    ref.executeScript({code: "StatusBar.hide();"},function(){ alert("sSS"); });
+           // });
     },
     // Update DOM on a Received Event
     receivedEvent: function(id) {
