@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="Guestengine" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
-    <name>HelloWorld</name>
+    <name>Mario Staff</name>
     <description>
         Hello World sample application that responds to the deviceready event.
     </description>
@@ -51,7 +51,7 @@
     <gap:plugin name="org.apache.cordova.dialogs" />
     <gap:plugin name="org.apache.cordova.statusbar"/>
     <gap:plugin name="org.apache.cordova.device" />
-    <gap:plugin name="org.apache.cordova.inappbrowser" version="0.3.3" />
+    <gap:plugin name="org.apache.cordova.inappbrowser"/>
 
 
     <gap:config-file platform="ios" parent="UIStatusBarHidden" overwrite="true">
