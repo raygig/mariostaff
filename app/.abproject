@@ -1,36 +1,21 @@
 {
   "ProjectName": "Photo Album",
   "projectVersion": 1,
-  "AppIdentifier": "com.telerik.photoalbum",
-  "DisplayName": "Photo Album",
+  "AppIdentifier": "com.guestengine.mariostaff",
+  "DisplayName": "Mario Staff",
   "Author": "",
-  "Description": "Photo Album",
+  "Description": "Mario Staff",
   "BundleVersion": "1.0",
   "Framework": "Cordova",
   "FrameworkVersion": "3.5.0",
   "ProjectTypeGuids": "{070BCB52-5A75-4F8C-A973-144AF0EAFCC9}",
   "CorePlugins": [
-    "com.telerik.mobiletesting",
-    "com.telerik.plugin.eqatecanalytics",
-    "org.apache.cordova.battery-status",
-    "org.apache.cordova.camera",
-    "org.apache.cordova.console",
-    "org.apache.cordova.contacts",
+    "com.phonegap.plugins.PushPlugin",
+    "com.phonegap.plugins.PushPlugin@2.5.3",
     "org.apache.cordova.device",
-    "org.apache.cordova.device-motion",
-    "org.apache.cordova.device-orientation",
-    "org.apache.cordova.dialogs",
-    "org.apache.cordova.file",
-    "org.apache.cordova.file-transfer",
-    "org.apache.cordova.geolocation",
     "org.apache.cordova.globalization",
-    "org.apache.cordova.inappbrowser",
-    "org.apache.cordova.media",
-    "org.apache.cordova.media-capture",
-    "org.apache.cordova.network-information",
     "org.apache.cordova.splashscreen",
-    "org.apache.cordova.statusbar",
-    "org.apache.cordova.vibration"
+    "org.apache.cordova.statusbar"
   ],
   "AndroidPermissions": [
     "android.permission.ACCESS_COARSE_LOCATION",
@@ -53,15 +38,13 @@
     "android.permission.WRITE_EXTERNAL_STORAGE"
   ],
   "DeviceOrientations": [
-    "Portrait",
-    "Landscape"
+    "Portrait"
   ],
-  "AndroidHardwareAcceleration": "false",
+  "AndroidHardwareAcceleration": "True",
   "AndroidVersionCode": "1",
-  "iOSStatusBarStyle": "Default",
+  "iOSStatusBarStyle": "BlackTranslucent",
   "iOSDeviceFamily": [
-    "1",
-    "2"
+    "1"
   ],
   "iOSBackgroundMode": [],
   "WP8TileTitle": "",
@@ -76,5 +59,8 @@
   "IsRunnable": "true",
   "ProjectGuid": "{ba2629ab-865f-4193-9b5a-f1da14946d6f}",
   "WP8PublisherID": "{5e9a20dc-9a6e-4951-b773-084f56faef48}",
-  "WP8ProductID": "{0613d0fb-0d00-4726-87f3-061cd7e44eab}"
+  "WP8ProductID": "{0613d0fb-0d00-4726-87f3-061cd7e44eab}",
+  "WP8WindowsPublisherName": "CN=Telerik",
+  "WP8PackageIdentityName": "1234Telerik.com.telerik.photoalbum",
+  "CordovaPluginVariables": {}
 }

@@ -1,1 +1,7 @@
-img { max-width: 100%; }
+.km-flat, .km-flat .km-navbar, .km-flat .km-content {
+	background: #2D3E50;
+}
+
+* {
+	  word-break: break-word;
+}
